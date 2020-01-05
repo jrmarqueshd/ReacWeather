@@ -6,7 +6,7 @@ export const CardWrapper = styled.div`
 	margin: 15px;
 	padding: 15px;
 	text-align: center;
-	min-width: 150px;
+	min-width: 190px;
 `;
 
 export const Title = styled.h2`
@@ -27,7 +27,7 @@ export const Icon = styled.span`
 	margin-bottom: 15px;
 	width: 100%;
 	svg {
-		font-size: 5rem;
+		font-size: 6rem;
 	}
 `;
 
