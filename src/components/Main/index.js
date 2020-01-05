@@ -35,7 +35,7 @@ export default function Main() {
 
 	useEffect(() => {
 		async function connectApiWeather() {
-			const response = await api.get("&woeid=455857");
+			const response = await api.get("");
 
 			setWeather(response.data.results);
 		}

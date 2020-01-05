@@ -4,7 +4,7 @@ import axios from "axios";
 dotenv.config();
 
 const api = axios.create({
-	baseURL: `https://api.hgbrasil.com/weather?format=json-cors&key=33f71e3b&woeid=455857`
+	baseURL: `https://api.hgbrasil.com/weather?format=json-cors&key=33f71e3b`
 });
 
 export default api;
